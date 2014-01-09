@@ -235,16 +235,26 @@ var Card = (function() {
 
   // Get other sets of card ===========================================================
   var getSets = function(id){
-    //try {
-    var arr = {};
+    var result = [];
+    var idRegex = /=([0-9]+)$/;
+    var setRegex = /(.*?) \((.*?)\)/;
+
     if ($(id).html()){
-      $(id + ' a img').each(function(ind, elm){
-        if ($(elm).attr('alt')) arr[ind] = $(elm).attr('alt');
+      $(id + ' a').each(function(ind, elm){
+        var idMatches = $(elm).attr('href').match(idRegex);
+        var setMatches = $(elm).find('img').attr('alt').match(setRegex);
+
+        if (idMatches && idMatches.length > 0) {
+          result.push({
+            "id": parseInt(idMatches[1]),
+            "setname": setMatches[1],
+            "rarity": setMatches[2],
+          });
+        }
       });
-      return arr;
     }
-    return 'None';
-    //} catch(e) {}
+
+    return result;
   }
 
 
