@@ -1,0 +1,14 @@
+{
+  "name": "Magic-Scraper",
+  "version": "0.0.1",
+  "author": "Ted Kulp <ted@tedkulp.com>",
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  },
+  "dependencies": {
+    "request": "latest",
+    "mongoose": "latest",
+    "cheerio": "latest"
+  }
+}
