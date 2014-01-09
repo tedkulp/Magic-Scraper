@@ -256,7 +256,7 @@ set_info = {
              cards=249,
              date="2012-07-13"),
 
-    'M14': S(name="Magic 2014",
+    'M14': S(name="Magic 2014 Core Set",
              cards=249,
              date="2013-07-19"),
 
