@@ -19,15 +19,14 @@ var CardSchema = new Schema({
 });
 
 mongo.connect('mongodb://localhost/magic');
-mongo.model('Card', CardSchema);
 
-var Cards = mongo.model('Card');
+var Cards = mongo.model('Card', CardSchema);
 
 var files = fs.readdirSync('./ids');
 var cards = 0, current = 0;
 var sofar = 0;
 
-var q = Cards.find({}, ['id']);
+var q = Cards.find({}, 'id');
 q.exec(function(er, records){
 
   for (var x = 0; x < records.length; x++){
