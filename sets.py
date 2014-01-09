@@ -62,8 +62,7 @@ set_info = {
              date="2003-07-28"),
 
     '9ED': S(name="Ninth Edition",
-             cards=360, # Wikipedia says 359, hmm
-                        # includes 4 versions of each basic land
+             cards=359,
              date="2005-07-29"),
 
     'ALA': S(name="Shards of Alara",
