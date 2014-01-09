@@ -157,6 +157,10 @@ set_info = {
              cards=165,
              date="2004-02-06"),
 
+    'DGM': S(name="Dragon's Maze",
+             cards=156,
+             date="2013-05-03"),
+
     'EVE': S(name="Eventide",
              cards=180,
              date="2008-07-25"),
@@ -177,6 +181,10 @@ set_info = {
     'FUT': S(name="Future Sight",
              cards=180,
              date="2007-05-04"),
+
+    'GTC': S(name="Gatecrash",
+             cards=249,
+             date="2013-02-01"),
 
     'GPT': S(name="Guildpact",
              cards=165,
@@ -248,6 +256,10 @@ set_info = {
     'M13': S(name="Magic 2013",
              cards=249,
              date="2012-07-13"),
+
+    'M14': S(name="Magic 2014",
+             cards=249,
+             date="2013-07-19"),
 
     'MBS': S(name="Mirrodin Besieged",
              cards=155,
@@ -386,6 +398,10 @@ set_info = {
              cards=350,
              date="1997-10-14",
              alias="TE"),
+
+    'THS': S(name="Theros",
+             cards=249,
+             date="2013-09-27"),
 
     'TOR': S(name="Torment",
              cards=143,
