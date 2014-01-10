@@ -1,0 +1,521 @@
+{
+  "10E" : {
+    "name" : "Tenth Edition",
+    "cards" : 383,
+    "date" : "2007-07-14"
+  },
+  "2ED" : {
+    "name" : "Unlimited Edition",
+    "cards" : 302,
+    "date" : "1993-12",
+    "alias" : "2U"
+  },
+  "3ED" : {
+    "name" : "Revised Edition",
+    "cards" : 306,
+    "date" : "1994-04",
+    "alias" : "3E"
+  },
+  "4ED" : {
+    "name" : "Fourth Edition",
+    "cards" : 378,
+    "date" : "1995-04",
+    "alias" : "4E"
+  },
+  "5DN" : {
+    "name" : "Fifth Dawn",
+    "cards" : 165,
+    "date" : "2004-06-04"
+  },
+  "5ED" : {
+    "name" : "Fifth Edition",
+    "cards" : 449,
+    "date" : "1997-03-24",
+    "alias" : "5E"
+  },
+  "6ED" : {
+    "name" : "Classic Sixth Edition",
+    "cards" : 350,
+    "date" : "1999-04-28",
+    "alias" : "6E"
+  },
+  "7ED" : {
+    "name" : "Seventh Edition",
+    "cards" : 350,
+    "date" : "2001-04-11",
+    "alias" : "7E"
+  },
+  "8ED" : {
+    "name" : "Eighth Edition",
+    "cards" : 357,
+    "date" : "2003-07-28"
+  },
+  "9ED" : {
+    "name" : "Ninth Edition",
+    "cards" : 359,
+    "date" : "2005-07-29"
+  },
+  "ALA" : {
+    "name" : "Shards of Alara",
+    "cards" : 249,
+    "date" : "2008-10-03"
+  },
+  "ALL" : {
+    "name" : "Alliances",
+    "cards" : 144,
+    "date" : "1996-06-10"
+  },
+  "APC" : {
+    "name" : "Apocalypse",
+    "cards" : 143,
+    "date" : "2001-06-04"
+  },
+  "ARB" : {
+    "name" : "Alara Reborn",
+    "cards" : 145,
+    "date" : "2009-04-30"
+  },
+  "ARC" : {
+    "name" : "Archenemy",
+    "cards" : 195,
+    "date" : "2010-06-18",
+    "deck" : 1
+  },
+  "ARN" : {
+    "name" : "Arabian Nights",
+    "cards" : 78,
+    "date" : "1993-12"
+  },
+  "ATQ" : {
+    "name" : "Antiquities",
+    "cards" : 85,
+    "date" : "1994-03"
+  },
+  "AVR" : {
+    "name" : "Avacyn Restored",
+    "cards" : 244,
+    "date" : "2012-05-04"
+  },
+  "BOK" : {
+    "name" : "Betrayers of Kamigawa",
+    "cards" : 165,
+    "date" : "2005-02-04"
+  },
+  "BRB" : {
+    "name" : "Battle Royale Box Set",
+    "cards" : 136,
+    "date" : "1999-11-12",
+    "alias" : "BR",
+    "deck" : 1
+  },
+  "BTD" : {
+    "name" : "Beatdown Box Set",
+    "cards" : 90,
+    "date" : "2000-12",
+    "alias" : "BD",
+    "deck" : 1
+  },
+  "CHK" : {
+    "name" : "Champions of Kamigawa",
+    "cards" : 307,
+    "date" : "2004-10-01"
+  },
+  "CHR" : {
+    "name" : "Chronicles",
+    "cards" : 16,
+    "date" : "1995-07"
+  },
+  "CMD" : {
+    "name" : "Commander",
+    "cards" : 330,
+    "date" : "2011-06-17",
+    "deck" : 1
+  },
+  "CON" : {
+    "name" : "Conflux",
+    "cards" : 145,
+    "date" : "2009-02-06"
+  },
+  "CSP" : {
+    "name" : "Coldsnap",
+    "cards" : 155,
+    "date" : "2006-07-21"
+  },
+  "DIS" : {
+    "name" : "Dissension",
+    "cards" : 180,
+    "date" : "2006-05-05"
+  },
+  "DKA" : {
+    "name" : "Dark Ascension",
+    "cards" : 158,
+    "date" : "2011-09-30"
+  },
+  "DRK" : {
+    "name" : "The Dark",
+    "cards" : 119,
+    "date" : "1994-08"
+  },
+  "DST" : {
+    "name" : "Darksteel",
+    "cards" : 165,
+    "date" : "2004-02-06"
+  },
+  "DGM" : {
+    "name" : "Dragon's Maze",
+    "cards" : 156,
+    "date" : "2013-05-03"
+  },
+  "EVE" : {
+    "name" : "Eventide",
+    "cards" : 180,
+    "date" : "2008-07-25"
+  },
+  "EXO" : {
+    "name" : "Exodus",
+    "cards" : 143,
+    "date" : "1998-06-15"
+  },
+  "FEM" : {
+    "name" : "Fallen Empires",
+    "cards" : 102,
+    "date" : "1994-11"
+  },
+  "FVR" : {
+    "name" : "From the Vault: Relics",
+    "cards" : 15,
+    "date" : "2010-08-27",
+    "deck" : 1
+  },
+  "FUT" : {
+    "name" : "Future Sight",
+    "cards" : 180,
+    "date" : "2007-05-04"
+  },
+  "GTC" : {
+    "name" : "Gatecrash",
+    "cards" : 249,
+    "date" : "2013-02-01"
+  },
+  "GPT" : {
+    "name" : "Guildpact",
+    "cards" : 165,
+    "date" : "2006-02-03"
+  },
+  "HML" : {
+    "name" : "Homelands",
+    "cards" : 115,
+    "date" : "1995-10"
+  },
+  "HOP" : {
+    "name" : "Planechase",
+    "cards" : 210,
+    "date" : "2009-09-04",
+    "deck" : 1
+  },
+  "ICE" : {
+    "name" : "Ice Age",
+    "cards" : 383,
+    "date" : "1996-06",
+    "alias" : "IA"
+  },
+  "INV" : {
+    "name" : "Invasion",
+    "cards" : 355,
+    "date" : "2000-10-02",
+    "alias" : "IN"
+  },
+  "ISD" : {
+    "name" : "Innistrad",
+    "cards" : 284,
+    "date" : "2011-09-30"
+  },
+  "JUD" : {
+    "name" : "Judgment",
+    "cards" : 143,
+    "date" : "2002-05-27"
+  },
+  "LEA" : {
+    "name" : "Limited Edition Alpha",
+    "cards" : 295,
+    "date" : "1993-08-05",
+    "alias" : "1E"
+  },
+  "LEB" : {
+    "name" : "Limited Edition Beta",
+    "cards" : 302,
+    "date" : "1993-10",
+    "alias" : "2E"
+  },
+  "LEG" : {
+    "name" : "Legends",
+    "cards" : 310,
+    "date" : "1994-06"
+  },
+  "LGN" : {
+    "name" : "Legions",
+    "cards" : 145,
+    "date" : "2003-02-03"
+  },
+  "LRW" : {
+    "name" : "Lorwyn",
+    "cards" : 301,
+    "date" : "2007-10-12"
+  },
+  "M10" : {
+    "name" : "Magic 2010",
+    "cards" : 249,
+    "date" : "2009-07-17"
+  },
+  "M11" : {
+    "name" : "Magic 2011",
+    "cards" : 249,
+    "date" : "2010-07-16"
+  },
+  "M12" : {
+    "name" : "Magic 2012",
+    "cards" : 249,
+    "date" : "2011-07-15"
+  },
+  "M13" : {
+    "name" : "Magic 2013",
+    "cards" : 249,
+    "date" : "2012-07-13"
+  },
+  "M14" : {
+    "name" : "Magic 2014 Core Set",
+    "cards" : 249,
+    "date" : "2013-07-19"
+  },
+  "MBS" : {
+    "name" : "Mirrodin Besieged",
+    "cards" : 155,
+    "date" : "2011-04-02"
+  },
+  "MED" : {
+    "name" : "Masters Edition",
+    "cards" : 195,
+    "date" : "2007-09-10",
+    "online" : true
+  },
+  "ME2" : {
+    "name" : "Masters Edition II",
+    "cards" : 245,
+    "date" : "2008-09-22",
+    "online" : true
+  },
+  "ME3" : {
+    "name" : "Masters Edition III",
+    "cards" : 230,
+    "date" : "2009-09-07",
+    "online" : true
+  },
+  "ME4" : {
+    "name" : "Masters Edition IV",
+    "cards" : 269,
+    "date" : "2011-01-10",
+    "online" : true
+  },
+  "MIR" : {
+    "name" : "Mirage",
+    "cards" : 350,
+    "date" : "1996-10-08",
+    "alias" : "MI"
+  },
+  "MMQ" : {
+    "name" : "Mercadian Masques",
+    "cards" : 350,
+    "date" : "1999-10-04",
+    "alias" : "MM"
+  },
+  "MOR" : {
+    "name" : "Morningtide",
+    "cards" : 150,
+    "date" : "2008-02-01"
+  },
+  "MRD" : {
+    "name" : "Mirrodin",
+    "cards" : 306,
+    "date" : "2003-10-02"
+  },
+  "NPH" : {
+    "name" : "New Phyrexia",
+    "cards" : 175,
+    "date" : "2011-05-13"
+  },
+  "NMS" : {
+    "name" : "Nemesis",
+    "cards" : 143,
+    "date" : "2000-02-14"
+  },
+  "ODY" : {
+    "name" : "Odyssey",
+    "cards" : 350,
+    "date" : "2001-10-01",
+    "alias" : "OD"
+  },
+  "ONS" : {
+    "name" : "Onslaught",
+    "cards" : 350,
+    "date" : "2002-10-07"
+  },
+  "P02" : {
+    "name" : "Portal Second Age",
+    "cards" : 165,
+    "date" : "1998-06",
+    "alias" : "P2"
+  },
+  "PCY" : {
+    "name" : "Prophecy",
+    "cards" : 143,
+    "date" : "2000-06-05"
+  },
+  "PDS" : {
+    "name" : "Premium Deck Series: Slivers",
+    "cards" : 41,
+    "date" : "2009-11-20",
+    "deck" : 1
+  },
+  "PLC" : {
+    "name" : "Planar Chaos",
+    "cards" : 165,
+    "date" : "2007-02-02"
+  },
+  "PLS" : {
+    "name" : "Planeshift",
+    "cards" : 143,
+    "date" : "2001-02-05"
+  },
+  "POR" : {
+    "name" : "Portal",
+    "cards" : 222,
+    "date" : "1997-06",
+    "alias" : "PO"
+  },
+  "PTK" : {
+    "name" : "Portal Three Kingdoms",
+    "cards" : 180,
+    "date" : "1999-05",
+    "alias" : "PK"
+  },
+  "RAV" : {
+    "name" : "Ravnica: City of Guilds",
+    "cards" : 306,
+    "date" : "2005-10-07"
+  },
+  "ROE" : {
+    "name" : "Rise of the Eldrazi",
+    "cards" : 248,
+    "date" : "2010-04-23"
+  },
+  "RTR" : {
+    "name" : "Return to Ravnica",
+    "cards" : 274,
+    "date" : "2012-10-05"
+  },
+  "S00" : {
+    "name" : "Starter 2000",
+    "cards" : 57,
+    "date" : "2000-07",
+    "alias" : "P4"
+  },
+  "S99" : {
+    "name" : "Starter 1999",
+    "cards" : 173,
+    "date" : "1999-07",
+    "alias" : "P3"
+  },
+  "SCG" : {
+    "name" : "Scourge",
+    "cards" : 143,
+    "date" : "2003-05-26"
+  },
+  "SHM" : {
+    "name" : "Shadowmoor",
+    "cards" : 301,
+    "date" : "2008-05-02"
+  },
+  "SOK" : {
+    "name" : "Saviors of Kamigawa",
+    "cards" : 165,
+    "date" : "2005-06-03"
+  },
+  "SOM" : {
+    "name" : "Scars of Mirrodin",
+    "cards" : 249,
+    "date" : "2010-10-01"
+  },
+  "STH" : {
+    "name" : "Stronghold",
+    "cards" : 143,
+    "date" : "1998-03-02"
+  },
+  "TMP" : {
+    "name" : "Tempest",
+    "cards" : 350,
+    "date" : "1997-10-14",
+    "alias" : "TE"
+  },
+  "THS" : {
+    "name" : "Theros",
+    "cards" : 249,
+    "date" : "2013-09-27"
+  },
+  "TOR" : {
+    "name" : "Torment",
+    "cards" : 143,
+    "date" : "2002-02-04"
+  },
+  "TSB" : {
+    "name" : "Time Spiral \"Timeshifted\"",
+    "cards" : 121,
+    "date" : "2006-10-06"
+  },
+  "TSP" : {
+    "name" : "Time Spiral",
+    "cards" : 301,
+    "date" : "2006-01-06"
+  },
+  "UDS" : {
+    "name" : "Urza's Destiny",
+    "cards" : 143,
+    "date" : "1999-06-07"
+  },
+  "UGL" : {
+    "name" : "Unglued",
+    "cards" : 93,
+    "date" : "1998-08-17",
+    "non_tournament_legal" : true
+  },
+  "ULG" : {
+    "name" : "Urza's Legacy",
+    "cards" : 143,
+    "date" : "1999-02-15"
+  },
+  "USG" : {
+    "name" : "Urza's Saga",
+    "cards" : 350,
+    "date" : "1998-10-12",
+    "alias" : "UZ"
+  },
+  "VIS" : {
+    "name" : "Visions",
+    "cards" : 167,
+    "date" : "1997-02-03"
+  },
+  "WTH" : {
+    "name" : "Weatherlight",
+    "cards" : 167,
+    "date" : "1997-06-09"
+  },
+  "WWK" : {
+    "name" : "Worldwake",
+    "cards" : 145,
+    "date" : "2010-02-05"
+  },
+  "ZEN" : {
+    "name" : "Zendikar",
+    "cards" : 249,
+    "date" : "2009-10-2"
+  }
+}
