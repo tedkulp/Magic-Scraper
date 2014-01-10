@@ -1,5 +1,6 @@
 var cheerio = require('cheerio')
-  , request = require('request');
+  , request = require('request')
+  , sets    = require('./sets.json');
 
 var Card = (function() {
 
@@ -239,6 +240,17 @@ var Card = (function() {
     var idRegex = /=([0-9]+)$/;
     var setRegex = /(.*?) \((.*?)\)/;
 
+    var getSetCode = function(name) {
+      var result = undefined;
+      Object.keys(sets).forEach(function (key) {
+        if (sets[key].name == name) {
+          result = key;
+        }
+      });
+      // if (result === '') console.log("Can't find set: " + name);
+      return result;
+    };
+
     if ($(id).html()){
       $(id + ' a').each(function(ind, elm){
         var idMatches = $(elm).attr('href').match(idRegex);
@@ -248,6 +260,7 @@ var Card = (function() {
           result.push({
             "id": parseInt(idMatches[1]),
             "setname": setMatches[1],
+            "set": getSetCode(setMatches[1]),
             "rarity": setMatches[2],
           });
         }
