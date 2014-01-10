@@ -117,6 +117,7 @@ var Card = (function() {
     var othersets = getSets(    format('otherSetsValue', side));
     var text =      getText(    format('textRow',        side) + ' .value .cardtextbox');
     var flavor =    getFlavor(  format('FlavorText',     side) + ' .cardtextbox');
+    var imageurl =  getImageUrl(format('cardImage',      side));
 
     if (converted !== 'None') converted = parseInt(converted);
 
@@ -141,7 +142,8 @@ var Card = (function() {
       colors:    colors,
       othersets: othersets,
       pt:        pt,
-      artist:    artist
+      artist:    artist,
+      imageurl:  imageurl
     };
 
     return _Card;
@@ -231,6 +233,14 @@ var Card = (function() {
     }
     return 'None';
     //} catch(e) {}
+  }
+
+
+  var getImageUrl = function(id){
+    if ($(id) && $(id).attr('src')){
+      return $(id).attr('src').replace('../..', 'http://gatherer.wizards.com');
+    }
+    return 'None';
   }
 
 
